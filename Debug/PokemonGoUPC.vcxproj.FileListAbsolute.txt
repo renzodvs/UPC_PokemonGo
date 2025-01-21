@@ -1,9 +1,0 @@
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.vcxproj.AssemblyReference.cache
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.Adicional1.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.AdicionalDos1.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.CapturaPK.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.FormBatalla.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.FormMochila.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.FormPokeparada.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.MyForm.resources
-C:\Users\User\OneDrive - Universidad Peruana de Ciencias\Cursos UPC\Programacion II\PokemonGoUPC\PokemonGoUPC\Debug\PokemonGoUPC.vcxproj.GenerateResource.cache
