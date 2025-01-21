@@ -1,0 +1,114 @@
+  PokemonGoUPC.Adicional1.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.AdicionalDos1.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.CapturaPK.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.FormBatalla.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.FormMochila.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.FormPokeparada.resources - Embedded, ContainedInManifestFile, 
+  PokemonGoUPC.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly PokemonGoUPC, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class PokemonGoUPC.Adicional1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CJuego*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetoJuego(CJuego*): PrivateScope, Public, HideBySig
+Class PokemonGoUPC.AdicionalDos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PokemonGoUPC.CapturaPK: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CJuego*, CPokemon*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetoJuego(CJuego*): PrivateScope, Public, HideBySig
+    MusicaCaptura(): PrivateScope, Public, HideBySig
+    Capturado(): PrivateScope, Public, HideBySig
+    Elige_Imagen(CPokemon*): PrivateScope, Public, HideBySig
+    IncrementaCaramelos(CPokemon*): PrivateScope, Public, HideBySig
+Class PokemonGoUPC.FormBatalla: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CJuego*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 paginas : Public
+    Int32 Npagina : Public
+    Int32 IndicePagina : Public
+    Int32 IndicePokemon : Public
+    Boolean luchar : Public
+    Boolean ActivarMusica : Public
+    Boolean PlayMusica : Public
+  Methods:
+    SetoJuego(CJuego*): PrivateScope, Public, HideBySig
+    MusicaBatalla(): PrivateScope, Public, HideBySig
+    Ganaste(): PrivateScope, Public, HideBySig
+    CalculaNPaginas(Int32): PrivateScope, Public, HideBySig
+    Set_Ataque_Especial(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Set_Imagen_Enemigo(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Set_Mi_Imagen(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Set_Mi_Ataque(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Set_Ataque_Enemigo(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Elige_Imagen2(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Elige_Imagen(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    AsignaBotones(): PrivateScope, Public, HideBySig
+Class PokemonGoUPC.FormMochila: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CJuego*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetoJuego(CJuego*): PrivateScope, Public, HideBySig
+Class PokemonGoUPC.FormPokeparada: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CJuego*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetoJuego(CJuego*): PrivateScope, Public, HideBySig
+    Incrementar_Contadores(CElemento*): PrivateScope, Public, HideBySig
+Class PokemonGoUPC.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CJuego* oJuego : Public
+    System.Drawing.Bitmap imgJugador : Public
+    System.Drawing.Bitmap ImgBicicleta : Public
+    System.Drawing.Bitmap Mapa : Public
+    System.Random rand : Public
+    System.Drawing.Bitmap ImgMenu : Public
+    System.Drawing.Bitmap ImgBtnJugar : Public
+    System.Drawing.Bitmap ImgBtnInstrucciones : Public
+    System.Drawing.Bitmap ImgBtnSalir : Public
+    System.Drawing.Bitmap ImgIluminado : Public
+    System.Drawing.Bitmap ImgIntroduccion : Public
+    System.Drawing.Bitmap ImgEleccion : Public
+    System.Drawing.Bitmap ImgPokeball : Public
+    System.Drawing.Bitmap ImgEligePokemon : Public
+    System.Drawing.Bitmap ImgFondoCaptura : Public
+    System.Drawing.Bitmap ImgEligeEquipo : Public
+    System.Drawing.Bitmap ImgIluminadoValor : Public
+    System.Drawing.Bitmap ImgIluminadoSabiduria : Public
+    System.Drawing.Bitmap ImgIluminadoInstinto : Public
+    System.Drawing.Bitmap ImgPParada : Public
+    System.Drawing.Bitmap ImgPParadaA : Public
+    System.Drawing.Bitmap ImgGimnasio : Public
+    System.Drawing.Bitmap ImgGimnasioA : Public
+    System.Drawing.Bitmap Img_Pikachu : Public
+    System.Drawing.Bitmap Img_Bulbasur : Public
+    System.Drawing.Bitmap Img_Charmander : Public
+    System.Drawing.Bitmap Img_Evee : Public
+    System.Drawing.Bitmap Img_Abra : Public
+    System.Drawing.Bitmap Img_Machop : Public
+    System.Drawing.Bitmap Img_Magikarp : Public
+    System.Drawing.Bitmap Img_Meowth : Public
+    System.Drawing.Bitmap Img_Onix : Public
+    System.Drawing.Bitmap Img_Snorlax : Public
+    System.Drawing.Bitmap Img_Squirtle : Public
+    System.Drawing.Bitmap Img_Ekans : Public
+    System.Drawing.Bitmap Img_Pidgey : Public
